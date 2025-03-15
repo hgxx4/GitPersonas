@@ -34,7 +34,7 @@ public class PruebaPersona {
          }
         
         //Mostramos información de la edad sobre las
-         System.out.println("EDAD DE PERSONAS:");
+         System.out.println("LA EDAD DE PERSONAS:");
          System.out.println("----------------------------------");
          for (Persona per : arrayPersonas) {
              System.out.println("La persona con DNI: " + per.getDni() + " ¿es menor de edad? --> " + per.esMenor());
